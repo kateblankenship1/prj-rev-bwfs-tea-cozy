@@ -1,0 +1,150 @@
+
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline
+}
+
+header nav {
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+a {
+  color: seashell;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.mission {
+  position: relative;
+}
+
+.mission img {
+  width: 1200px;
+  height: 700px;
+  padding-left: 40px;
+}
+
+.statement {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  bottom: 320px;
+}
+
+/* TEAS */
+
+.flex {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: block;
+  width: 300px;
+  padding: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.desc p {
+  font-size: 18px;
+}
+
+
+.locations {
+  position: relative;
+}
+
+
+.locations img {
+  width: 1200px;
+  height: 500px;
+  padding-left: 40px;
+}
+
+.address {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 600px;
+}
+
+.spot {
+  display: block;
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  background-color: black;
+  color: white;
+  width: 300px;
+  bottom: 1140px;
+  margin: 15px;
+}
+
+#where {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  bottom: 500px;
+}
+
+.ttc {
+  display: block;
+  position: relative;
+  bottom: 980px;
+}
+
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  float: left;
+  font-size: 0.7em;
+  padding-left: 24px;
+  padding-top: 16px;
+  bottom: 700px;
+}
+
+.copyright span {
+  float: left;
+}
